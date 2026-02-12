@@ -41,6 +41,7 @@ else()
 endif()
 
 	zephyr_library_sources(
+		${PLDM_ROOT}/src/edac.c
 		${PLDM_ROOT}/src/utils.c
 		${PLDM_ROOT}/src/responder.c
 
